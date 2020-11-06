@@ -40,32 +40,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-/*
-function App() {
-  return (
-      <div>
-        <h1>This is fast</h1>
-        <h1>This is slow</h1>
-        <FC />
-        <ClassComp />
-        <ClassComp1 />
-        <Click />
-        <Counter />
-        <ParentComp/>
-        <Classprops name = 'Student 1' place = 'Africa'>
-              <p>bow wow wow</p>
-        </Classprops>
-        <Classprops name = 'Student 2' place = 'China'>
-            <button>Click</button>
-        </Classprops>
-        <Classprops name = 'Student 3' place = 'USA'>
-            <p>Howdy</p>
-        </Classprops>
-        <Funtionprops name='Student 4'/>
-      </div>
-  );
-}
-
-
- */
