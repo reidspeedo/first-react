@@ -8,12 +8,18 @@ import Funtionprops from "./Components/Functionprop";
 //import FunctionalComp from "./Components/FunctionalComp";
 import React from "react"
 import './App.css';
+import NewComp from "./Components/NewComp";
 
 class App extends React.Component {
+    styles = {
+        fontStyle: "bold",
+        color: "teal"
+    }
     render() {
         return (
             <div class = "App">
-                <h1>Welcome</h1>
+                <h1 style={this.styles}>Welcome</h1>
+                <NewComp/>
 
                 <h2> Lessons: Class & Functional Components, Higher Components, Pure Components, & Props</h2>
                 <div>
